@@ -1,0 +1,24 @@
+.testform {
+    border-radius: 5px;
+    background-color: #070707;
+    padding: 20px;
+  }
+  #heading{
+    color: white;
+  }
+
+  #employee{
+    color: white;
+  }
+  #student{
+    color: white;
+  }
+  #terms{
+    color: white;
+  }
+
+  #input{
+    color: white;
+    background-color: #070707;
+  }
+  
