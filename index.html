@@ -10,29 +10,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="testform">
-        <form action="" >
-            <h2 id="heading">Signup</h2>
-            <input type="text" id="input" name="fname" value="Full Name" required><br>
-            <input type="email" id="input" name="lname" value="Email" required><br>
-            <input type="password" id="input" name="lname" value="Password" required><br>
-            <input type="text" id="input" name="lname" value="DOB" required><br>
-            
-            <input type="radio" id="student" name="ques" value="Student" required>
-            <label for="html" id = "student">Student</label>
-            <input type="radio" id="employee" name="ques" value="Employee" required>
-            <label for="css" id="employee">Employee</label><br>
-
-
-            <input type="checkbox" id="terms" name="terms" value="terms" required>
-            <label for="employee" id="terms">I agree to all the Terms and conditions</label><br>
-
-            <button type="submit">Signup</button>
-            
-            
-            
+      <div class="container">
+          <h1>Signup</h1>
+          <form action="" class="sign-up-form">
+              <input type="text" class="fields name-field" placeholder="Full Name" required>
+              <input type="email" class="fields email-field" placeholder="Email" required>
+              <input type="password" class="fields password-field" placeholder="Password" required>
+              <input type="password" class="fields conpass-field" placeholder="Confirm Password" required>
+              <input type="date" class="fields dob-field" placeholder="DD/MM/YYYY" required>
+              <input type="radio" name="select-one" class="student-field" value="Student" id="select">Student
+              <input type="radio" name="select-one" class="employee-field" value="Employee" id="select">Employee
+              <input type="checkbox" name="TandC" id="terms" required>I agree to all the Terms and conditions
+              <button class="btn">Signup</button>
           </form>
-        </div>
-
-    </body>
+      </div>
+  </body>
 </html>

@@ -1,24 +1,62 @@
-.testform {
-    border-radius: 5px;
-    background-color: #070707;
-    padding: 20px;
-  }
-  #heading{
-    color: white;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
-  #employee{
-    color: white;
-  }
-  #student{
-    color: white;
-  }
-  #terms{
-    color: white;
-  }
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 150px;
+  padding-top: 50px;
+  color: white;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+}
 
-  #input{
-    color: white;
-    background-color: #070707;
-  }
-  
+h1{
+  display: block;
+  font-size: 40px;
+}
+
+form{
+  margin-top: 50px;
+}
+
+
+.fields{
+display: block;
+width: 950px;
+height: 40px;
+text-decoration: none;
+background-color: transparent;
+border: none;
+border-bottom: 2px solid #fff;
+margin-top: 20px;
+
+}
+.dob-field{
+  color: gray;
+  text-transform: uppercase;
+}
+
+#select{
+  margin-top: 20px;
+}
+
+#terms{
+  display: block;
+  margin-top: 20px;
+}
+.btn{
+  display: block;
+  margin-top: 20px;
+  background-color: #fff;
+  width: 150px;
+  padding: 5px;
+  height: 40px;
+  color: #000;
+}
